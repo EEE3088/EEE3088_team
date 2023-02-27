@@ -1,0 +1,91 @@
+27/02/2023
+V1.0
+
+Enviro Sensing HAT Concept Proposal
+EEE3088
+
+Q1 Enviro sensing HAT Concept
+This project’s Hardware Attached on Top (HAT) board will consist of two main features, namely: a
+temperature and pressure sensor. These sensors will be utilized in a multitude of cases by simply
+connecting it to the STM32 PCB board and to a constant power supply, whether portable or fixed.
+The multipurpose functionality of the HAT makes it a practical tool for end-users as it is cost-effective
+and convenient furthermore it notifies users about environment changes which can prevent mishaps.
+One use case of this sensor would be a maintaining the pressure and temperature of a wine cellar. It
+can be mounted to a wall near a socket with a constant power supply in the cellar and alert the user
+when either temperature or pressure is no longer compatible. Another case would be a tool for hikers
+to monitor pressure levels whilst hiking in higher altitudes. A sudden change detected in either sensor
+will alert users as they continue or function as an indicator to opt for a different route. Lastly, it would
+be in the mining industry; miners can use this device to detect when the conditions become
+inhospitable, and this can mitigate risk of casualties.
+Q2 Requirements
+Scenario 1: Individual User Application/Smart Home System
+Sensors are needed to automate certain home appliances in a smart home. Temperature and
+barometer sensors are a valuable measurement device as most appliances involve temperature and
+pressure fluctuations such as extractor fans and cooling systems. Apart from appliances, clients may
+use sensors to observe readings for things like plant care, preservation of consumables and even
+heating.
+• R1.1: In a smart home system, users require a pressure sensor to detect when there is
+excessive steam in the bathroom to alert the user that the extractor fan needs to be turned
+on.
+• R1.2: For wine storage in homes and transportation to homes, the pressure needs to be
+maintained to prevent the bottles from exploding. Users will require the sensor to measure
+the pressure in the cellar and during transit and be alerted if the pressure is too high.
+Consumables like vegetables can also be preserved better when the user is able to observe
+how much heat the perishables are being subjected to.
+• R1.3: During loadshedding, air conditions will stop functioning and spaces will heat up. A
+temperature sensor that alerts users that the temperature has surpassed a certain point is
+convenient.
+• R1.4: During cooking, the kitchen heats up and there is a presence of steam. Users will require
+the sensor to detect when conditions exceed bearable amounts.
+• R1.5: Users require a temperature sensor for even heating. Readings can be taken all over
+necessary space to see which areas need attention.
+Scenario 2: Outdoor Use
+Outdoor physical activities such as hiking, climbing, and camping are all impacted by temperature and
+pressure. Altitude and temperature determine the conditions for these activities. If users are able to
+constantly observe any fluctuations, then they may be equipped to deal with any difficulties.
+• R2.1: Increase in altitude results in lower pressure levels and lower oxygen levels. Users such
+as hikers require the sensor to read and record pressure levels and alert the user when oxygen
+levels are getting dangerously low. This allows users to remain safe and choose a safe path.
+• R2.2: Often camping trips last several days and requires campers to cook to drink water using
+a gas stove. The atmospheric pressure level determines the boiling point therefore users need
+the sensor to report the pressure level. This will give the user an idea of how long it would
+take to cook food or boil water for drinking.
+• R2.3: Hikers in remote locations don’t have signal coverage therefore the temperature sensor
+is the only way to observe temperature and precisely for that specific location. Users require
+this insight to avoid dangerously extreme temperatures.
+Scenario 3: Medical Practitioners and Treatment
+Medical practices require specific temperature control to preserve medicine, cells and prevent
+bacteria growth. Pharmaceutical production needs to be done in a controlled environment with
+specified temperature and pressure. Certain medical treatments are based purely of heat and
+pressure control therefore it is important to be able to monitor temperature closely.
+• R3.1: Hyperbaric chamber treatment requires accurate pressure levels therefore users require
+the sensor to read and store and change in pressure. Thermotherapy requires temperature to
+be monitored.
+• R3.2: Production of medicine and pharmaceuticals requires good ventilations and
+temperature control; the sensor allows medical professionals to accurately set conditions.
+• R3.3: Operating theatres require low temperatures to prevent bacteria growth. A temperature
+sensor indicates to doctors when that level has been exceeded. Automatic room ventilation
+may be set to a specific value but factors like light and equipment heat dissipation varies the
+actual temperature therefore the sensor produces accurate readings.
+Scenario 4: Mining Industry
+Mines pose a threat to miners when excavating therefore companies need to ensure the safety of
+their employees. As miners excavate deeper into the ground, the pressure levels increase. Excavation
+also requires the use of explosives which impacts the temperature and pressure of the environment
+that miners are subjected to. It would be in the best interest of mining companies to implement
+sensors to safeguard themselves from lawsuits and protect their employees.
+• R4.1: When tunneling deeper into the mines, the pressure increases which has short term
+dangers and long term impacts on the health of miners. The barometer will alert miners on
+dangerous pressure levels.
+• R4.2: The temperature in mines determines working conditions. As miners get closer to the
+core of the Earth, the temperature will rise. Higher temperatures may cause expensive
+machinery to malfunction and be detrimental to miners short term health. A temperature
+sensor that continuously detects temperature changes is required for efficient operations
+within the mine.
+• R4.3: When controlled explosions are used in mines, reactions are exothermic causing
+temperature and pressure to spike unpredictably. Temperature and pressure spikes may
+cause uncontrolled combustion in the mines. Mining companies require the sensor to monitor
+pressure and temperature levels and alert the user if dangerous levels are reached.
+Q4 Link to Team Git Repository
+https://github.com/EEE3088
+Q3 Project Subsystems Block Diagram
+#See pdf
