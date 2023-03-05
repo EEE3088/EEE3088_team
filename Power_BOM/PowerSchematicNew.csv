@@ -1,11 +1,3 @@
-"Source:","\\Mac\Home\Downloads\EEE3088 Project\PowerSchematicNew\PowerSchematicNew.kicad_sch"
-"Date:","3/5/2023 9:59:25 PM"
-"Tool:","Eeschema (7.0.0)"
-"Generator:","C:\Program Files\KiCad\7.0\bin\scripting\plugins/bom_csv_grouped_by_value.py"
-"Component Count:","16"
-
-"Collated Components:"
-
 "Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP","LCSC","MANUFACTURER","MAXIMUM_PACKAGE_HEIGHT","MPN","PARTREV","STANDARD","VALUE"
 "1","1","BT1","Battery_Cell","Device:Battery_Cell","","~","","","","","","","","",""
 "2","1","C1","0.1u","Device:C_Small","","~","","","","","","","","",""
