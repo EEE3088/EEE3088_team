@@ -1,0 +1,29 @@
+﻿Source:,D:\Project\schematicDraft\schematicDraft.sch,,,,,,
+Date:,2023/03/05 21:36,,,,,,
+Tool:,Eeschema (5.1.10)-1,,,,,,
+Generator:,D:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,,
+Component Count:,7,,,,,,
+,,,,,,,
+Individual Components:,,,,,,,
+,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Cost
+,,C1,0.1 ÂµF,Device:C,,~,US$0.0034
+,,C2,100nF,Device:C,,~,US$0.0034
+,,C3,4.7uF,Device:C,,~,US$0.0056
+,,C4,10000pF,Device:C,,~,US$0.0027
+,,R2,4.7k,Device:R_US,,~,US$0.0013
+,,U1,LMT87DCK,Sensor_Temperature:LMT87DCK,Package_TO_SOT_SMD:SOT-353_SC-70-5,http://www.ti.com/lit/ds/symlink/lmt87-q1.pdf,$0.9435
+,,U4,LPS25HB,Sensor_Pressure:LPS25HB,Package_LGA:ST_HLGA-10_2.5x2.5mm_P0.6mm_LayoutBorder3x2y,www.st.com/resource/en/datasheet/lps25hb.pdf,$6.5257 
+,,,,,,,
+,,,,,,,
+,,,,,,,
+Collated Components:,,,,,,,
+,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Cost
+1,1,C1,0.1 ÂµF,Device:C,,~,US$0.0034
+2,1,C2,100nF,Device:C,,~,US$0.0034
+3,1,C3,4.7uF,Device:C,,~,US$0.0056
+4,1,C4,10000pF,Device:C,,~,US$0.0027
+5,1,R2,4.7k,Device:R_US,,~,US$0.0013
+6,1,U1,LMT87DCK,Sensor_Temperature:LMT87DCK,Package_TO_SOT_SMD:SOT-353_SC-70-5,http://www.ti.com/lit/ds/symlink/lmt87-q1.pdf,$0.9435
+7,1,U4,LPS25HB,Sensor_Pressure:LPS25HB,Package_LGA:ST_HLGA-10_2.5x2.5mm_P0.6mm_LayoutBorder3x2y,www.st.com/resource/en/datasheet/lps25hb.pdf,$6.5257 
