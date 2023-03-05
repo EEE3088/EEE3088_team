@@ -1,5 +1,5 @@
 "Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP","LCSC","MANUFACTURER","MAXIMUM_PACKAGE_HEIGHT","MPN","PARTREV","STANDARD","VALUE"
-"1","1","BT1","Battery_Cell","Device:Battery_Cell","","~","","","","","","","","",""
+"1","1","BT1","Battery_Cell","Device:Battery_Cell","","~","","","","","","","",""
 "2","1","C1","0.1u","Device:C_Small","","~","","","","","","","","",""
 "3","1","C3","10u","Device:C_Small","","~","","","","","","","","",""
 "4","1","D1","MBR340","Diode:MBR340","Diode_THT:D_DO-201AD_P15.24mm_Horizontal","http://www.onsemi.com/pub_link/Collateral/MBR340-D.PDF","","","","","","","","",""
