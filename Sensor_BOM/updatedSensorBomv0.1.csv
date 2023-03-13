@@ -1,0 +1,12 @@
+﻿Reference,Value,Footprint,Datasheet,JLC Part Number,Cost Per unit,Total Cost,Qty
+C3,100nF,,~,C307331,US$0.0068,US$0.0068,1
+C4,4.7uF,,~,C1779,US$0.0112,US$0.0112,1
+"R1, R6, R7",47 ohm,,~,C25118,US$0.0005,US$0.0015,3
+R2, 4.7k ohm,,~,NA,US$0.0010,US$0.0010,1
+R3-R5,0 ohm,,~,NA,US$0.0005,US$0.0015,3
+U2,LPS22HB,Package_LGA:ST_HLGA-10_2.5x2.5mm_P0.6mm_LayoutBorder3x2y,https://www.st.com/resource/en/datasheet/lps22hb.pdf,C94049,$1.58,$1.58,1
+U1,LMT87DCK,Package_TO_SOT_SMD:SOT-353_SC-70-5,http://www.ti.com/lit/ds/symlink/lmt87-q1.pdf,C206058,$0.9435,$0.9435,1
+C1,0.1 ÂµF,,~,NA,US$0.0034,US$0.0034,1
+C2,10000pF,,~,NA,US$0.0027,US$0.0027,1
+,,,,,,,
+,,,,,TOTAL:,US$2.5516,
