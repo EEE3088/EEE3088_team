@@ -1,14 +1,17 @@
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP","LCSC","MANUFACTURER","MAXIMUM_PACKAGE_HEIGHT","MPN","PARTREV","STANDARD","VALUE"
-"1","1","BT1","Battery_Cell","Device:Battery_Cell","","~","","","","","","","",""
-"2","1","C1","0.1u","Device:C_Small","","~","","","","","","","",""
-"3","1","C3","10u","Device:C_Small","","~","","","","","","","",""
-"4","1","D1","MBR340","Diode:MBR340","Diode_THT:D_DO-201AD_P15.24mm_Horizontal","http://www.onsemi.com/pub_link/Collateral/MBR340-D.PDF","","","","","","","",""
-"5","2","D2, D3","LED","Device:LED","","~","","","","","","","",""
-"6","1","IC1","DW01A","EEEE3088 Library:DW01A","SOT23-6","","","","C351410","","","DW01A","",""
-"7","1","Q1","FS8205A","EEEE3088 Library:FS8205A","SOP65P640X120-8N","","","","","Fortune Semiconductor","1.2mm","","1.7","IPC 7351B"
-"8","1","R1","R","Device:R_Small","","~","","","","","","","",""
-"9","1","R2","1.2K","Device:R_Small","","~","","","","","","","",""
-"10","3","R3, R4, R6","1K","Device:R_Small","","~","","","","","","","",""
-"11","1","R5","100","Device:R_Small","","~","","","","","","","",""
-"12","1","U1","TP4056","EEEE3088 Library:TP4056","SOP127P600X175-9N","","","","","NanJing Top Power ASIC Corp.","1.75mm","","","IPC 7351B"
-"13","1","U2","HT7533-1","EEEE3088 Library:HT7533-1","SOT89","","","","","","","","",""
+#,Reference,Qty,Value,Footprint,DNP
+1,BT1,1,Battery_Cell,,
+2,C1,1,0.1u,,
+3,C3,1,10u,,
+4,D1,1,MBR340,Diode_THT:D_DO-201AD_P15.24mm_Horizontal,
+5,"D2, D3",2,LED,,
+6,"D4, D5",2,1N47xxA,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,
+7,IC1,1,DW01A,SOT23-6,
+8,Q1,1,FS8205A,SOP65P640X120-8N,
+9,Q2,1,2N2219,Package_TO_SOT_THT:TO-39-3,
+10,R1,1,R,,
+11,R2,1,1.2K,,
+12,"R3, R4, R6",3,1K,,
+13,R5,1,100,,
+14,"R7, R8, R9, R11",4,10K,,
+15,U1,1,TP4056,SOP127P600X175-9N,
+16,U2,1,HT7533-1,SOT89,
