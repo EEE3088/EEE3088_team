@@ -1,0 +1,16 @@
+﻿Reference,Value,Footprint,Datasheet,Cost per Board,Five Board Cost,JLC PCB Part Number,Qty
+BT1,Battery_Cell,,~,0.0381,0.1905,NA,1
+C1,0.1u,,~,0.0054,0.027,NA,1
+C3,10u,,~,0.0054,0.027,NA,1
+D1,MBR340,Diode_THT:D_DO-201AD_P15.24mm_Horizontal,http://www.onsemi.com/pub_link/Collateral/MBR340-D.PDF,0.0659,0.3295,C475721,1
+"D2, D3",LED,,~,0.0054,0.027,NA,2
+"D4, D5",1N47xxA,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,https://www.vishay.com/docs/85816/1n4728a.pdf,0.0186,0.093,C2456,2
+Q1,FS8205A,SOP65P640X120-8N,,0.2044,1.022,C16052,1
+Q2,2N2219,Package_TO_SOT_THT:TO-39-3,http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF,0.0186,0.093,NA,1
+"R1, R3, R4, R6",1K,,~,0.2,0.1,NA,4
+R2,1.2K,,~,0.005,0.025,NA,1
+R5,100,,~,0.005,0.025,NA,1
+"R7-R9, R11",10K,,~,0.2,0.1,NA,4
+U1,TP4056,SOP127P600X175-9N,,0.2027,1.0135,C16581,1
+U2,HT7533-1,SOT89,,0.1315,0.6575,C14289,1
+IC1,DW01A,SOT23-6,,0.0384,0.192,C351410,1
