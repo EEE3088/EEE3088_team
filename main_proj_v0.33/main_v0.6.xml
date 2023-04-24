@@ -1,0 +1,2706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Talon\OneDrive - University of Cape Town\Documents\EEE3088\main_v0.26\main_v0.6.kicad_sch</source>
+    <date>2023/04/20 11:32:42</date>
+    <tool>Eeschema (7.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>HAT Modular</title>
+        <company>University of Cape Town</company>
+        <rev>v0.21</rev>
+        <date>2023-04-13</date>
+        <source>main_v0.6.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Author: Joachim Gengan, Sayuri Moodley, Talon Sewnath"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Analogue_sensor/" tstamps="/00000000-0000-0000-0000-00006404a2b1/">
+      <title_block>
+        <title>Analogue Temp Sensor</title>
+        <company>University of Cape Town</company>
+        <rev>v0.21</rev>
+        <date>2023-04-13</date>
+        <source>Temperature_sensor.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Author: Joachim Gengan"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Pressure_sensor/" tstamps="/00000000-0000-0000-0000-00006404a750/">
+      <title_block>
+        <title>Pressure Sensor</title>
+        <company>University of Cape Town</company>
+        <rev>v0.21</rev>
+        <date>2023-04-13</date>
+        <source>Digital_sensor.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Author: Joachim Gengan"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/">
+      <title_block>
+        <title>Power Module</title>
+        <company>University of Cape Town</company>
+        <rev>v0.21</rev>
+        <date>2023-04-13</date>
+        <source>power_module.kicad_sch</source>
+        <comment number="1" value="Author: Sayuri Moodley"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/">
+      <title_block>
+        <title>Interface IC</title>
+        <company>University of Cape Town</company>
+        <rev>v0.21</rev>
+        <date>2023-04-13</date>
+        <source>interface_ic_module_sch.kicad_sch</source>
+        <comment number="1" value="Author: Talon Sewnath"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>newLibrary:18650_HOLDER_TH</footprint>
+      <fields>
+        <field name="Component Name">Battery</field>
+        <field name="Cost per Board">0.0381</field>
+        <field name="Five Board Cost">0.1905</field>
+        <field name="JLC PCB Part Number">NA</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Cost per Board" value="0.0381"/>
+      <property name="Five Board Cost" value="0.1905"/>
+      <property name="JLC PCB Part Number" value="NA"/>
+      <property name="Component Name" value="Battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="main_v0.6.kicad_sch"/>
+      <property name="ki_description" value="Single-cell battery"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>627815ab-82c2-4d74-9865-24b1294534fe</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x10_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Component Name">Pin Header 1x10</field>
+        <field name="Cost Per unit">U$0.0388</field>
+        <field name="Cost per Board">U$0.0388</field>
+        <field name="Five Board Cost">U$0.194</field>
+        <field name="LCSC">C5156617</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x10_Pin" description="Generic connector, single row, 01x10, script generated"/>
+      <property name="Component Name" value="Pin Header 1x10"/>
+      <property name="Cost Per unit" value="U$0.0388"/>
+      <property name="Cost per Board" value="U$0.0388"/>
+      <property name="Five Board Cost" value="U$0.194"/>
+      <property name="LCSC" value="C5156617"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="main_v0.6.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x10, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88fb56f9-ac0d-4633-8aff-007b355696a9</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x05_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Component Name">Pin Header 1x5</field>
+        <field name="Cost Per unit">U$0.0275</field>
+        <field name="Cost per Board"> U$0.0275</field>
+        <field name="Five Board Cost"> U$0.1375</field>
+        <field name="LCSC">C5156614</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Pin" description="Generic connector, single row, 01x05, script generated"/>
+      <property name="Component Name" value="Pin Header 1x5"/>
+      <property name="Cost Per unit" value="U$0.0275"/>
+      <property name="Cost per Board" value=" U$0.0275"/>
+      <property name="Five Board Cost" value=" U$0.1375"/>
+      <property name="LCSC" value="C5156614"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="main_v0.6.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>007417fe-b645-4771-baf1-c7cf97cc19c0</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1 µF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Capacitor</field>
+        <field name="Cost Per unit">U$0.0138</field>
+        <field name="Cost per Board">U$0.0138</field>
+        <field name="Five Board Cost">U$0.069</field>
+        <field name="JLC Part Number">NA</field>
+        <field name="LCSC">C24497</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Cost Per unit" value="U$0.0138"/>
+      <property name="JLC Part Number" value="NA"/>
+      <property name="Component Name" value="Capacitor"/>
+      <property name="Cost per Board" value="U$0.0138"/>
+      <property name="Five Board Cost" value="U$0.069"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="Sheetname" value="Analogue_sensor"/>
+      <property name="Sheetfile" value="Temperature_sensor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analogue_sensor/" tstamps="/00000000-0000-0000-0000-00006404a2b1/"/>
+      <tstamps>00000000-0000-0000-0000-00006404e304</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10000pF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Capacitor</field>
+        <field name="Cost Per unit">U$0.0131</field>
+        <field name="Cost per Board">U$0.0131</field>
+        <field name="Five Board Cost">U$0.0655</field>
+        <field name="JLC Part Number">NA</field>
+        <field name="LCSC">C1846</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Cost Per unit" value="U$0.0131"/>
+      <property name="JLC Part Number" value="NA"/>
+      <property name="Component Name" value="Capacitor"/>
+      <property name="Cost per Board" value="U$0.0131"/>
+      <property name="Five Board Cost" value="U$0.0655"/>
+      <property name="LCSC" value="C1846"/>
+      <property name="Sheetname" value="Analogue_sensor"/>
+      <property name="Sheetfile" value="Temperature_sensor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analogue_sensor/" tstamps="/00000000-0000-0000-0000-00006404a2b1/"/>
+      <tstamps>00000000-0000-0000-0000-00006404ce08</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>300</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0030</field>
+        <field name="Cost per Board">U$0.009</field>
+        <field name="Five Board Cost">U$0.045</field>
+        <field name="JLC Part Number">C25118</field>
+        <field name="LCSC">C17887</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Cost Per unit" value="U$0.0030"/>
+      <property name="JLC Part Number" value="C25118"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost per Board" value="U$0.009"/>
+      <property name="Five Board Cost" value="U$0.045"/>
+      <property name="LCSC" value="C17887"/>
+      <property name="Sheetname" value="Analogue_sensor"/>
+      <property name="Sheetfile" value="Temperature_sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analogue_sensor/" tstamps="/00000000-0000-0000-0000-00006404a2b1/"/>
+      <tstamps>d55c4854-b4ea-4bff-8b72-1a47390fb9af</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0030</field>
+        <field name="Cost per Board">U$0.021</field>
+        <field name="Five Board Cost">U$0.105</field>
+        <field name="JLC Part Number">NA</field>
+        <field name="LCSC">C17888</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Cost Per unit" value="U$0.0030"/>
+      <property name="JLC Part Number" value="NA"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost per Board" value="U$0.021"/>
+      <property name="Five Board Cost" value="U$0.105"/>
+      <property name="LCSC" value="C17888"/>
+      <property name="Sheetname" value="Analogue_sensor"/>
+      <property name="Sheetfile" value="Temperature_sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analogue_sensor/" tstamps="/00000000-0000-0000-0000-00006404a2b1/"/>
+      <tstamps>4ef1b5c1-4e05-4bf6-a4c3-1d8d9bb24254</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0030</field>
+        <field name="Cost per Board">U$0.021</field>
+        <field name="Five Board Cost">U$0.105</field>
+        <field name="LCSC">C17888</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="U$0.0030"/>
+      <property name="Cost per Board" value="U$0.021"/>
+      <property name="Five Board Cost" value="U$0.105"/>
+      <property name="LCSC" value="C17888"/>
+      <property name="Sheetname" value="Analogue_sensor"/>
+      <property name="Sheetfile" value="Temperature_sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Analogue_sensor/" tstamps="/00000000-0000-0000-0000-00006404a2b1/"/>
+      <tstamps>a9ac86a0-5cd1-4825-b358-853a18193fdd</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Component Name" value=""/>
+      <property name="Sheetname" value="Analogue_sensor"/>
+      <property name="Sheetfile" value="Temperature_sensor.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Analogue_sensor/" tstamps="/00000000-0000-0000-0000-00006404a2b1/"/>
+      <tstamps>0e85f743-d114-4209-9f70-a379b6e471aa</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Component Name" value=""/>
+      <property name="Sheetname" value="Analogue_sensor"/>
+      <property name="Sheetfile" value="Temperature_sensor.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Analogue_sensor/" tstamps="/00000000-0000-0000-0000-00006404a2b1/"/>
+      <tstamps>37d1285d-b1a8-42ad-aaba-1fdb3195fed0</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LMT87DCK</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lmt87-q1.pdf</datasheet>
+      <fields>
+        <field name="Component Name">Temp Sensor</field>
+        <field name="Cost Per unit">U$0.9827</field>
+        <field name="Cost per Board">U$0.9827</field>
+        <field name="Five Board Cost">U$5.9135</field>
+        <field name="JLC Part Number">C206058</field>
+        <field name="LCSC">C206058</field>
+      </fields>
+      <libsource lib="schematicDraft-rescue" part="LMT87DCK-Sensor_Temperature" description=""/>
+      <property name="Cost Per unit" value="U$0.9827"/>
+      <property name="JLC Part Number" value="C206058"/>
+      <property name="Component Name" value="Temp Sensor"/>
+      <property name="Cost per Board" value="U$0.9827"/>
+      <property name="Five Board Cost" value="U$5.9135"/>
+      <property name="LCSC" value="C206058"/>
+      <property name="Sheetname" value="Analogue_sensor"/>
+      <property name="Sheetfile" value="Temperature_sensor.kicad_sch"/>
+      <sheetpath names="/Analogue_sensor/" tstamps="/00000000-0000-0000-0000-00006404a2b1/"/>
+      <tstamps>00000000-0000-0000-0000-00006404ab95</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Capacitor</field>
+        <field name="Cost Per unit">U$0.0138</field>
+        <field name="Cost per Board">U$0.0138</field>
+        <field name="Five Board Cost">U$0.069</field>
+        <field name="JLC Part Number">C307331</field>
+        <field name="LCSC">C24497</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Cost Per unit" value="U$0.0138"/>
+      <property name="JLC Part Number" value="C307331"/>
+      <property name="Component Name" value="Capacitor"/>
+      <property name="Cost per Board" value="U$0.0138"/>
+      <property name="Five Board Cost" value="U$0.069"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="Sheetname" value="Pressure_sensor"/>
+      <property name="Sheetfile" value="Digital_sensor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Pressure_sensor/" tstamps="/00000000-0000-0000-0000-00006404a750/"/>
+      <tstamps>3825a049-6db6-441a-9c6a-bff2863c47ff</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Capacitor</field>
+        <field name="Cost Per unit">U$0.0339</field>
+        <field name="Cost per Board">U$0.0339</field>
+        <field name="Five Board Cost">U$0.1695</field>
+        <field name="JLC Part Number">C1779</field>
+        <field name="LCSC">C29823</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Cost Per unit" value="U$0.0339"/>
+      <property name="JLC Part Number" value="C1779"/>
+      <property name="Component Name" value="Capacitor"/>
+      <property name="Cost per Board" value="U$0.0339"/>
+      <property name="Five Board Cost" value="U$0.1695"/>
+      <property name="LCSC" value="C29823"/>
+      <property name="Sheetname" value="Pressure_sensor"/>
+      <property name="Sheetfile" value="Digital_sensor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Pressure_sensor/" tstamps="/00000000-0000-0000-0000-00006404a750/"/>
+      <tstamps>122ec4c5-f3a5-42a3-b61a-b5a43444da18</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0029</field>
+        <field name="Cost per Board">U$0.0029</field>
+        <field name="Five Board Cost">U$0.0145</field>
+        <field name="JLC Part Number">NA</field>
+        <field name="LCSC">C17936</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Cost Per unit" value="U$0.0029"/>
+      <property name="JLC Part Number" value="NA"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost per Board" value="U$0.0029"/>
+      <property name="Five Board Cost" value="U$0.0145"/>
+      <property name="LCSC" value="C17936"/>
+      <property name="Sheetname" value="Pressure_sensor"/>
+      <property name="Sheetfile" value="Digital_sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Pressure_sensor/" tstamps="/00000000-0000-0000-0000-00006404a750/"/>
+      <tstamps>d40414f8-1a28-45ed-864b-feda3e926b18</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0030</field>
+        <field name="Cost per Board">U$0.021</field>
+        <field name="Five Board Cost">U$0.105</field>
+        <field name="JLC Part Number">NA</field>
+        <field name="LCSC">C17888</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Cost Per unit" value="U$0.0030"/>
+      <property name="JLC Part Number" value="NA"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost per Board" value="U$0.021"/>
+      <property name="Five Board Cost" value="U$0.105"/>
+      <property name="LCSC" value="C17888"/>
+      <property name="Sheetname" value="Pressure_sensor"/>
+      <property name="Sheetfile" value="Digital_sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Pressure_sensor/" tstamps="/00000000-0000-0000-0000-00006404a750/"/>
+      <tstamps>1541bd8b-05ef-40a9-990f-2a9040f8d617</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0030</field>
+        <field name="Cost per Board">U$0.021</field>
+        <field name="Five Board Cost">U$0.105</field>
+        <field name="JLC Part Number">NA</field>
+        <field name="LCSC">C17888</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Cost Per unit" value="U$0.0030"/>
+      <property name="JLC Part Number" value="NA"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost per Board" value="U$0.021"/>
+      <property name="Five Board Cost" value="U$0.105"/>
+      <property name="LCSC" value="C17888"/>
+      <property name="Sheetname" value="Pressure_sensor"/>
+      <property name="Sheetfile" value="Digital_sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Pressure_sensor/" tstamps="/00000000-0000-0000-0000-00006404a750/"/>
+      <tstamps>3021662f-37f7-4fbf-966a-54f08074391a</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>300</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0030</field>
+        <field name="Cost per Board">U$0.009</field>
+        <field name="Five Board Cost">U$0.045</field>
+        <field name="JLC Part Number">C25118</field>
+        <field name="LCSC">C17887</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Cost Per unit" value="U$0.0030"/>
+      <property name="JLC Part Number" value="C25118"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost per Board" value="U$0.009"/>
+      <property name="Five Board Cost" value="U$0.045"/>
+      <property name="LCSC" value="C17887"/>
+      <property name="Sheetname" value="Pressure_sensor"/>
+      <property name="Sheetfile" value="Digital_sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Pressure_sensor/" tstamps="/00000000-0000-0000-0000-00006404a750/"/>
+      <tstamps>ab509f74-12cd-44ac-a19d-c669a0ac0086</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>300</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0030</field>
+        <field name="Cost per Board">U$0.009</field>
+        <field name="Five Board Cost">U$0.045</field>
+        <field name="JLC Part Number">C25118</field>
+        <field name="LCSC">C17887</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Cost Per unit" value="U$0.0030"/>
+      <property name="JLC Part Number" value="C25118"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost per Board" value="U$0.009"/>
+      <property name="Five Board Cost" value="U$0.045"/>
+      <property name="LCSC" value="C17887"/>
+      <property name="Sheetname" value="Pressure_sensor"/>
+      <property name="Sheetfile" value="Digital_sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Pressure_sensor/" tstamps="/00000000-0000-0000-0000-00006404a750/"/>
+      <tstamps>cab12aee-b522-410b-9d56-7a57400e046e</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0030</field>
+        <field name="Cost per Board">U$0.021</field>
+        <field name="Five Board Cost">U$0.105</field>
+        <field name="LCSC">C17888</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="U$0.0030"/>
+      <property name="Cost per Board" value="U$0.021"/>
+      <property name="Five Board Cost" value="U$0.105"/>
+      <property name="LCSC" value="C17888"/>
+      <property name="Sheetname" value="Pressure_sensor"/>
+      <property name="Sheetfile" value="Digital_sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Pressure_sensor/" tstamps="/00000000-0000-0000-0000-00006404a750/"/>
+      <tstamps>93fc6b91-91f1-45ff-aa46-65c5ca404f4f</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Component Name" value=""/>
+      <property name="Sheetname" value="Pressure_sensor"/>
+      <property name="Sheetfile" value="Digital_sensor.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Pressure_sensor/" tstamps="/00000000-0000-0000-0000-00006404a750/"/>
+      <tstamps>495b53ae-c11a-4f9f-8a0e-614f8b0e303f</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Component Name" value=""/>
+      <property name="Sheetname" value="Pressure_sensor"/>
+      <property name="Sheetfile" value="Digital_sensor.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Pressure_sensor/" tstamps="/00000000-0000-0000-0000-00006404a750/"/>
+      <tstamps>df8a620c-ea60-46d6-b0d4-47dddffda503</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Component Name" value=""/>
+      <property name="Sheetname" value="Pressure_sensor"/>
+      <property name="Sheetfile" value="Digital_sensor.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Pressure_sensor/" tstamps="/00000000-0000-0000-0000-00006404a750/"/>
+      <tstamps>8249d270-a762-4814-9c13-bf674f00633f</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LPS22HB</value>
+      <footprint>Package_LGA:ST_HLGA-10_2.5x2.5mm_P0.6mm_LayoutBorder3x2y</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/lps22hb.pdf</datasheet>
+      <fields>
+        <field name="Component Name">Pressure Sensor</field>
+        <field name="Cost Per unit">US$1.4559</field>
+        <field name="Cost per Board">US$1.4559</field>
+        <field name="Five Board Cost">US$7.2795</field>
+        <field name="JLC Part Number">C94049</field>
+        <field name="LCSC">C94049</field>
+      </fields>
+      <libsource lib="Sensor_Pressure" part="LPS22HB" description="MEMS nano pressure sensor, 260-1260 hPa, absolute digital output baromeeter, 24 bit, SPI, I2C, 0.0075 hPa noise rms, ST_HLGA-10L"/>
+      <property name="Cost Per unit" value="US$1.4559"/>
+      <property name="JLC Part Number" value="C94049"/>
+      <property name="Component Name" value="Pressure Sensor"/>
+      <property name="Cost per Board" value="US$1.4559"/>
+      <property name="Five Board Cost" value="US$7.2795"/>
+      <property name="LCSC" value="C94049"/>
+      <property name="Sheetname" value="Pressure_sensor"/>
+      <property name="Sheetfile" value="Digital_sensor.kicad_sch"/>
+      <property name="ki_description" value="MEMS nano pressure sensor, 260-1260 hPa, absolute digital output baromeeter, 24 bit, SPI, I2C, 0.0075 hPa noise rms, ST_HLGA-10L"/>
+      <property name="ki_keywords" value="mems absolute baromeeter spi i2c pressure"/>
+      <sheetpath names="/Pressure_sensor/" tstamps="/00000000-0000-0000-0000-00006404a750/"/>
+      <tstamps>fd3107e8-ec03-4ed8-a56e-f5d605685837</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Capacitor</field>
+        <field name="Cost Per unit">U$0.0138</field>
+        <field name="Cost per Board">U$0.0138</field>
+        <field name="Five Board Cost">U$0.069</field>
+        <field name="JLC PCB Part Number">NA</field>
+        <field name="LCSC">C24497</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Cost per Board" value="U$0.0138"/>
+      <property name="Five Board Cost" value="U$0.069"/>
+      <property name="JLC PCB Part Number" value="NA"/>
+      <property name="Component Name" value="Capacitor"/>
+      <property name="Cost Per unit" value="U$0.0138"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>a459ad97-4128-4b22-9072-48eea6a86064</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Capacitor</field>
+        <field name="Cost Per unit">U$0.0317</field>
+        <field name="Cost per Board">U$0.0317</field>
+        <field name="Five Board Cost">U$0.1585</field>
+        <field name="JLC PCB Part Number">NA</field>
+        <field name="LCSC">C13585</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Cost per Board" value="U$0.0317"/>
+      <property name="Five Board Cost" value="U$0.1585"/>
+      <property name="JLC PCB Part Number" value="NA"/>
+      <property name="Component Name" value="Capacitor"/>
+      <property name="Cost Per unit" value="U$0.0317"/>
+      <property name="LCSC" value="C13585"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>e7ee2f35-eb76-4397-b7ea-64b3d998a5d4</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Capacitor</field>
+        <field name="Cost Per unit">U$0.0339</field>
+        <field name="Cost per Board">U$0.0339</field>
+        <field name="Five Board Cost">U$0.1695</field>
+        <field name="JLC PCB Part Number">NA</field>
+        <field name="LCSC">C29823</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Cost per Board" value="U$0.0339"/>
+      <property name="Five Board Cost" value="U$0.1695"/>
+      <property name="JLC PCB Part Number" value="NA"/>
+      <property name="Component Name" value="Capacitor"/>
+      <property name="Cost Per unit" value="U$0.0339"/>
+      <property name="LCSC" value="C29823"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>62fe0084-feac-4f54-8200-384d6d945928</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Capacitor</field>
+        <field name="Cost Per unit">U$0.0795</field>
+        <field name="Cost per Board">U$0.0795</field>
+        <field name="Five Board Cost">U$0.3975</field>
+        <field name="LCSC">C96123</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Component Name" value="Capacitor"/>
+      <property name="Cost Per unit" value="U$0.0795"/>
+      <property name="Cost per Board" value="U$0.0795"/>
+      <property name="Five Board Cost" value="U$0.3975"/>
+      <property name="LCSC" value="C96123"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>d4854eae-bb5c-43b9-9edc-3729f242a0f4</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Capacitor</field>
+        <field name="Cost Per unit">U$0.0378</field>
+        <field name="Cost per Board">U$0.0378</field>
+        <field name="Five Board Cost">U$0.189</field>
+        <field name="LCSC">C35216</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Component Name" value="Capacitor"/>
+      <property name="Cost Per unit" value="U$0.0378"/>
+      <property name="Cost per Board" value="U$0.0378"/>
+      <property name="Five Board Cost" value="U$0.189"/>
+      <property name="LCSC" value="C35216"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>f3c33098-710a-4eca-aa10-c4ec5e19a9c1</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>MBR340</value>
+      <footprint>Diode_SMD:D_1206_3216Metric</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MBR340-D.PDF</datasheet>
+      <fields>
+        <field name="Component Name">Schottky </field>
+        <field name="Cost Per unit">US$0.0659</field>
+        <field name="Cost per Board">US$0.0659</field>
+        <field name="Five Board Cost">US$0.3295</field>
+        <field name="JLC PCB Part Number">C475721</field>
+        <field name="LCSC">C475721</field>
+      </fields>
+      <libsource lib="Diode" part="MBR340" description="40V 3A Schottky Barrier Rectifier Diode, DO-201AD"/>
+      <property name="Cost per Board" value="US$0.0659"/>
+      <property name="Five Board Cost" value="US$0.3295"/>
+      <property name="JLC PCB Part Number" value="C475721"/>
+      <property name="Component Name" value="Schottky "/>
+      <property name="Cost Per unit" value="US$0.0659"/>
+      <property name="LCSC" value="C475721"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="40V 3A Schottky Barrier Rectifier Diode, DO-201AD"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>fc84c8d7-8eda-44eb-8126-ec9d08e45930</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">LED</field>
+        <field name="Cost Per unit">US$0.0054</field>
+        <field name="Cost per Board">US$0.0108</field>
+        <field name="Five Board Cost">US$0.054</field>
+        <field name="JLC PCB Part Number">NA</field>
+        <field name="LCSC">C2286</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Cost per Board" value="US$0.0108"/>
+      <property name="Five Board Cost" value="US$0.054"/>
+      <property name="JLC PCB Part Number" value="NA"/>
+      <property name="Component Name" value="LED"/>
+      <property name="Cost Per unit" value="US$0.0054"/>
+      <property name="LCSC" value="C2286"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>d1ddbc48-b929-46fc-82fe-33475e93e014</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">LED</field>
+        <field name="Cost Per unit">US$0.0054</field>
+        <field name="Cost per Board">US$0.0108</field>
+        <field name="Five Board Cost">US$0.054</field>
+        <field name="JLC PCB Part Number">NA</field>
+        <field name="LCSC">C2286</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Cost per Board" value="US$0.0108"/>
+      <property name="Five Board Cost" value="US$0.054"/>
+      <property name="JLC PCB Part Number" value="NA"/>
+      <property name="Component Name" value="LED"/>
+      <property name="Cost Per unit" value="US$0.0054"/>
+      <property name="LCSC" value="C2286"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>d2c0ad29-7368-428f-a3be-e969540cc1d4</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>DW01A</value>
+      <footprint>footprints:SOT23-6</footprint>
+      <fields>
+        <field name="Component Name">Lithium Protection</field>
+        <field name="Cost Per unit">US$0.0275</field>
+        <field name="Cost per Board">US$0.0275</field>
+        <field name="Five Board Cost">US$0.1375</field>
+        <field name="LCSC">C436931</field>
+        <field name="MPN">DW01A</field>
+      </fields>
+      <libsource lib="EEEE3088 Library" part="DW01A" description=""/>
+      <property name="LCSC" value="C436931"/>
+      <property name="MPN" value="DW01A"/>
+      <property name="Component Name" value="Lithium Protection"/>
+      <property name="Cost Per unit" value="US$0.0275"/>
+      <property name="Cost per Board" value="US$0.0275"/>
+      <property name="Five Board Cost" value="US$0.1375"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>cfdf4537-1333-4a43-adec-ea5209cd84b8</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>10uH</value>
+      <footprint>Inductor_SMD:L_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Inductor</field>
+        <field name="Cost Per unit">U$0.0155</field>
+        <field name="Cost per Board">U$0.0155</field>
+        <field name="Five Board Cost">U$0.0775</field>
+        <field name="LCSC">C1051</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Component Name" value="Inductor"/>
+      <property name="Cost Per unit" value="U$0.0155"/>
+      <property name="Cost per Board" value="U$0.0155"/>
+      <property name="Five Board Cost" value="U$0.0775"/>
+      <property name="LCSC" value="C1051"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>d6774d0f-5762-4f7f-9c4c-8c6db72c0ced</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>FS8205A</value>
+      <footprint>Package_SO:TSSOP-8_4.4x3mm_P0.65mm</footprint>
+      <fields>
+        <field name="Component Name">MOSFET</field>
+        <field name="Cost Per unit">US$0.0552</field>
+        <field name="Cost per Board">US$0.0552</field>
+        <field name="Five Board Cost">US$0.276</field>
+        <field name="JLC PCB Part Number">C16052</field>
+        <field name="LCSC">C908265</field>
+        <field name="MANUFACTURER">Fortune Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.2mm</field>
+        <field name="PARTREV">1.7</field>
+      </fields>
+      <libsource lib="EEEE3088 Library" part="FS8205A" description=""/>
+      <property name="PARTREV" value="1.7"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.2mm"/>
+      <property name="MANUFACTURER" value="Fortune Semiconductor"/>
+      <property name="Cost per Board" value="US$0.0552"/>
+      <property name="Five Board Cost" value="US$0.276"/>
+      <property name="JLC PCB Part Number" value="C16052"/>
+      <property name="Component Name" value="MOSFET"/>
+      <property name="Cost Per unit" value="US$0.0552"/>
+      <property name="LCSC" value="C908265"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>a67ff2b7-9cd4-4507-ab6f-af81a7ec6449</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>CSD13381F4</value>
+      <footprint>newLibrary:DFN100X60X35-3N</footprint>
+      <fields>
+        <field name="Component Name">Transistor</field>
+        <field name="Cost Per unit">US$0.0106</field>
+        <field name="Cost per Board">US$0.0106</field>
+        <field name="Five Board Cost">US$0.053</field>
+        <field name="LCSC">C20526</field>
+        <field name="MANUFACTURER">Texas Instruments</field>
+      </fields>
+      <libsource lib="EEEE3088 Library" part="CSD13381F4" description=""/>
+      <property name="MANUFACTURER" value="Texas Instruments"/>
+      <property name="Component Name" value="Transistor"/>
+      <property name="Cost Per unit" value="US$0.0106"/>
+      <property name="Cost per Board" value="US$0.0106"/>
+      <property name="Five Board Cost" value="US$0.053"/>
+      <property name="LCSC" value="C20526"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>f260c766-47a0-42c2-926d-90ae1c66dc92</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0030</field>
+        <field name="Cost per Board">U$0.012</field>
+        <field name="Five Board Cost">U$0.06</field>
+        <field name="JLC PCB Part Number">NA</field>
+        <field name="LCSC">C4410</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Cost per Board" value="U$0.012"/>
+      <property name="Five Board Cost" value="U$0.06"/>
+      <property name="JLC PCB Part Number" value="NA"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="U$0.0030"/>
+      <property name="LCSC" value="C4410"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>f68dfdb9-e158-4b61-b906-7f2c2343ae73</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0030</field>
+        <field name="Cost per Board">U$0.012</field>
+        <field name="Five Board Cost">U$0.06</field>
+        <field name="JLC PCB Part Number">NA</field>
+        <field name="LCSC">C4410</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Cost per Board" value="U$0.012"/>
+      <property name="Five Board Cost" value="U$0.06"/>
+      <property name="JLC PCB Part Number" value="NA"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="U$0.0030"/>
+      <property name="LCSC" value="C4410"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>7ffbfb83-f25a-4df0-8810-ba05a7ee0303</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0030</field>
+        <field name="Cost per Board">U$0.0030</field>
+        <field name="Five Board Cost">U$0.0030</field>
+        <field name="JLC PCB Part Number">NA</field>
+        <field name="LCSC">C25862</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Cost per Board" value="U$0.0030"/>
+      <property name="Five Board Cost" value="U$0.0030"/>
+      <property name="JLC PCB Part Number" value="NA"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="U$0.0030"/>
+      <property name="LCSC" value="C25862"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>4646819b-2586-4549-aa1c-b698cdc45524</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0030</field>
+        <field name="Cost per Board">U$0.012</field>
+        <field name="Five Board Cost">U$0.06</field>
+        <field name="JLC PCB Part Number">NA</field>
+        <field name="LCSC">C4410</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Cost per Board" value="U$0.012"/>
+      <property name="Five Board Cost" value="U$0.06"/>
+      <property name="JLC PCB Part Number" value="NA"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="U$0.0030"/>
+      <property name="LCSC" value="C4410"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>7a739706-2b10-448b-933a-48757c9d6f27</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0030</field>
+        <field name="Cost per Board">U$0.012</field>
+        <field name="Five Board Cost">U$0.06</field>
+        <field name="JLC PCB Part Number">NA</field>
+        <field name="LCSC">C4410</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Cost per Board" value="U$0.012"/>
+      <property name="Five Board Cost" value="U$0.06"/>
+      <property name="JLC PCB Part Number" value="NA"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="U$0.0030"/>
+      <property name="LCSC" value="C4410"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>cb81a705-c4ae-4324-89f4-e24d9a91d62e</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0031</field>
+        <field name="Cost per Board">U$0.0062</field>
+        <field name="Five Board Cost">U$0.031</field>
+        <field name="LCSC">C17900</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="U$0.0031"/>
+      <property name="Cost per Board" value="U$0.0062"/>
+      <property name="Five Board Cost" value="U$0.031"/>
+      <property name="LCSC" value="C17900"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>c9c57cc4-939b-43fc-a828-f383c6cd6b68</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>300</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0030</field>
+        <field name="Cost per Board">U$0.0030</field>
+        <field name="Five Board Cost">U$0.015</field>
+        <field name="LCSC">C17887</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="U$0.0030"/>
+      <property name="Cost per Board" value="U$0.0030"/>
+      <property name="Five Board Cost" value="U$0.015"/>
+      <property name="LCSC" value="C17887"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>f7b17635-7f2f-4a57-a9dd-e6f5dcd6bda6</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>750</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0032</field>
+        <field name="Cost per Board">U$0.0032</field>
+        <field name="Five Board Cost">U$0.016</field>
+        <field name="LCSC">C17985</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="U$0.0032"/>
+      <property name="Cost per Board" value="U$0.0032"/>
+      <property name="Five Board Cost" value="U$0.016"/>
+      <property name="LCSC" value="C17985"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>a8601af9-f07e-4d54-9c2a-f5cb37a46cfb</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0031</field>
+        <field name="Cost per Board">U$0.0031</field>
+        <field name="Five Board Cost">U$0.0155</field>
+        <field name="LCSC">C17900</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="U$0.0031"/>
+      <property name="Cost per Board" value="U$0.0031"/>
+      <property name="Five Board Cost" value="U$0.0155"/>
+      <property name="LCSC" value="C17900"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>1732db9b-642d-4752-a2ce-4f5ffee36605</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0030</field>
+        <field name="Cost per Board">U$0.021</field>
+        <field name="Five Board Cost">U$0.105</field>
+        <field name="JLC PCB Part Number">NA</field>
+        <field name="LCSC">C17888</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Cost per Board" value="U$0.021"/>
+      <property name="Five Board Cost" value="U$0.105"/>
+      <property name="JLC PCB Part Number" value="NA"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="U$0.0030"/>
+      <property name="LCSC" value="C17888"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>8d32f500-27a7-4204-b895-97cafb8eee52</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0030</field>
+        <field name="Cost per Board">U$0.021</field>
+        <field name="Five Board Cost">U$0.105</field>
+        <field name="JLC PCB Part Number">NA</field>
+        <field name="LCSC">C17888</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Cost per Board" value="U$0.021"/>
+      <property name="Five Board Cost" value="U$0.105"/>
+      <property name="JLC PCB Part Number" value="NA"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="U$0.0030"/>
+      <property name="LCSC" value="C17888"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>c3d85b94-c3e8-47c3-8478-cc8089446b83</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>180</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0033</field>
+        <field name="Cost per Board">U$0.0033</field>
+        <field name="Five Board Cost">U$0.0165</field>
+        <field name="LCSC">C17924</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="U$0.0033"/>
+      <property name="Cost per Board" value="U$0.0033"/>
+      <property name="Five Board Cost" value="U$0.0165"/>
+      <property name="LCSC" value="C17924"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>25a3dbea-d51f-4399-92e4-13ac80b47a05</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0031</field>
+        <field name="Cost per Board">U$0.0062</field>
+        <field name="Five Board Cost">U$0.031</field>
+        <field name="LCSC">C17900</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="U$0.0031"/>
+      <property name="Cost per Board" value="U$0.0062"/>
+      <property name="Five Board Cost" value="U$0.031"/>
+      <property name="LCSC" value="C17900"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>a9bf4614-803b-4c72-a653-5f7beaa4a70f</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Component Name" value=""/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>0816bd29-e7bd-4309-a768-fce2f51f76fc</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Component Name" value=""/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>18e00d9a-d2e7-40ce-9b40-b2785c0a129c</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Component Name" value=""/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>b27b7f74-f691-43bc-a525-f78c5dfe0dd1</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>HT7533-1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3</footprint>
+      <fields>
+        <field name="Component Name">Voltage Regulator</field>
+        <field name="Cost Per unit">US$0.1279</field>
+        <field name="Cost per Board">US$0.1279</field>
+        <field name="Five Board Cost">US$0.6395</field>
+        <field name="JLC PCB Part Number">C14289</field>
+        <field name="LCSC">C14289</field>
+      </fields>
+      <libsource lib="EEEE3088 Library" part="HT7533-1" description=""/>
+      <property name="Cost per Board" value="US$0.1279"/>
+      <property name="Five Board Cost" value="US$0.6395"/>
+      <property name="JLC PCB Part Number" value="C14289"/>
+      <property name="Component Name" value="Voltage Regulator"/>
+      <property name="Cost Per unit" value="US$0.1279"/>
+      <property name="LCSC" value="C14289"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>dc6cfabd-0c90-4221-93bf-2fedf2d7c18c</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TP4056</value>
+      <footprint>Package_SO:SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm</footprint>
+      <fields>
+        <field name="Component Name">Battery Charger</field>
+        <field name="Cost Per unit">U$0.1771</field>
+        <field name="Cost per Board">U$0.1771</field>
+        <field name="Five Board Cost">U$0.8855</field>
+        <field name="JLC PCB Part Number">C16581</field>
+        <field name="LCSC">C16581</field>
+        <field name="MANUFACTURER">NanJing Top Power ASIC Corp.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.75mm</field>
+      </fields>
+      <libsource lib="EEEE3088 Library" part="TP4056" description=""/>
+      <property name="MANUFACTURER" value="NanJing Top Power ASIC Corp."/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.75mm"/>
+      <property name="Cost per Board" value="U$0.1771"/>
+      <property name="Five Board Cost" value="U$0.8855"/>
+      <property name="JLC PCB Part Number" value="C16581"/>
+      <property name="Component Name" value="Battery Charger"/>
+      <property name="Cost Per unit" value="U$0.1771"/>
+      <property name="LCSC" value="C16581"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>990c33ac-7d58-432e-b173-7a45f1e1a0ec</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>TPS61022RWUR</value>
+      <footprint>newLibrary:CONV_TPS61022RWUR</footprint>
+      <fields>
+        <field name="Component Name">UVLO</field>
+        <field name="Cost Per unit">U$0.6269</field>
+        <field name="Cost per Board">U$0.6269</field>
+        <field name="Five Board Cost">U$3.1345</field>
+        <field name="LCSC">C915088</field>
+        <field name="MANUFACTURER">Texas Instruments</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.00mm</field>
+        <field name="PARTREV">4223724/C 02/2018</field>
+      </fields>
+      <libsource lib="EEEE3088 Library" part="TPS61022RWUR" description=""/>
+      <property name="PARTREV" value="4223724/C 02/2018"/>
+      <property name="MANUFACTURER" value="Texas Instruments"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.00mm"/>
+      <property name="Component Name" value="UVLO"/>
+      <property name="Cost Per unit" value="U$0.6269"/>
+      <property name="Cost per Board" value="U$0.6269"/>
+      <property name="Five Board Cost" value="U$3.1345"/>
+      <property name="LCSC" value="C915088"/>
+      <property name="Sheetname" value="Power Module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <sheetpath names="/Power Module/" tstamps="/c0fcc5fd-e6d1-4c97-b691-b667c316491e/"/>
+      <tstamps>2bf57a22-91b6-4c02-8cb8-aa9fcc486c46</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10pF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Capacitor</field>
+        <field name="Cost Per unit">US$0.0055</field>
+        <field name="Cost per Board">US$0.011</field>
+        <field name="Five Board Cost">US$0.055</field>
+        <field name="JLC PCB Part Number">NA</field>
+        <field name="LCSC">C29823</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Cost per Board" value="US$0.011"/>
+      <property name="Five Board Cost" value="US$0.055"/>
+      <property name="JLC PCB Part Number" value="NA"/>
+      <property name="Component Name" value="Capacitor"/>
+      <property name="Cost Per unit" value="US$0.0055"/>
+      <property name="LCSC" value="C29823"/>
+      <property name="Sheetname" value="Interface IC Module"/>
+      <property name="Sheetfile" value="interface_ic_module_sch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/"/>
+      <tstamps>9ce89885-b80f-44e3-a7de-5f5857ba6004</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10pF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Capacitor</field>
+        <field name="Cost Per unit">US$0.0055</field>
+        <field name="Cost per Board">US$0.011</field>
+        <field name="Five Board Cost">US$0.055</field>
+        <field name="JLC PCB Part Number">NA</field>
+        <field name="LCSC">C29823</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Cost per Board" value="US$0.011"/>
+      <property name="Five Board Cost" value="US$0.055"/>
+      <property name="JLC PCB Part Number" value="NA"/>
+      <property name="Component Name" value="Capacitor"/>
+      <property name="Cost Per unit" value="US$0.0055"/>
+      <property name="LCSC" value="C29823"/>
+      <property name="Sheetname" value="Interface IC Module"/>
+      <property name="Sheetfile" value="interface_ic_module_sch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/"/>
+      <tstamps>7889784d-2df1-4e80-a36b-d0507c8c7b02</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x24_Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x24_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x24_Socket" description="Generic connector, single row, 01x24, script generated"/>
+      <property name="Component Name" value=""/>
+      <property name="Sheetname" value="Interface IC Module"/>
+      <property name="Sheetfile" value="interface_ic_module_sch.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x24, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/"/>
+      <tstamps>8a8cc849-469a-4695-b107-4bf37be07157</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x24_Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x24_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x24_Socket" description="Generic connector, single row, 01x24, script generated"/>
+      <property name="Component Name" value=""/>
+      <property name="Sheetname" value="Interface IC Module"/>
+      <property name="Sheetfile" value="interface_ic_module_sch.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x24, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/"/>
+      <tstamps>d99d3711-3507-496a-995c-af009c71c7bc</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>USB_B_Micro</value>
+      <footprint>Connector_USB:USB_Micro-B_XKB_U254-051T-4BH83-F1S</footprint>
+      <fields>
+        <field name="Component Name">USB connector</field>
+        <field name="Cost Per unit">U$0.0333</field>
+        <field name="Cost per Board">U$0.0333</field>
+        <field name="Five Board Cost">U$0.1665</field>
+        <field name="LCSC">C404969</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="Component Name" value="USB connector"/>
+      <property name="Cost Per unit" value="U$0.0333"/>
+      <property name="Cost per Board" value="U$0.0333"/>
+      <property name="Five Board Cost" value="U$0.1665"/>
+      <property name="LCSC" value="C404969"/>
+      <property name="Sheetname" value="Interface IC Module"/>
+      <property name="Sheetfile" value="interface_ic_module_sch.kicad_sch"/>
+      <property name="ki_description" value="USB Micro Type B connector"/>
+      <property name="ki_keywords" value="connector USB micro"/>
+      <sheetpath names="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/"/>
+      <tstamps>09f12da8-c7f0-4baa-a74d-1f7b4fcfec03</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0029</field>
+        <field name="Cost per Board">U$0.0174</field>
+        <field name="Five Board Cost">U$0.0087</field>
+        <field name="LCSC">C17902</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="U$0.0029"/>
+      <property name="Cost per Board" value="U$0.0174"/>
+      <property name="Five Board Cost" value="U$0.0087"/>
+      <property name="LCSC" value="C17902"/>
+      <property name="Sheetname" value="Interface IC Module"/>
+      <property name="Sheetfile" value="interface_ic_module_sch.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/"/>
+      <tstamps>c9c6ecd6-2685-4dfd-9e91-3cbb72064574</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">US$0.0029</field>
+        <field name="Cost per Board">US$0.0058</field>
+        <field name="Five Board Cost">US$0.029</field>
+        <field name="LCSC">C17903</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="US$0.0029"/>
+      <property name="Cost per Board" value="US$0.0058"/>
+      <property name="Five Board Cost" value="US$0.029"/>
+      <property name="LCSC" value="C17903"/>
+      <property name="Sheetname" value="Interface IC Module"/>
+      <property name="Sheetfile" value="interface_ic_module_sch.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/"/>
+      <tstamps>806196be-e3df-480c-a6a2-cbaf23769e5b</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">US$0.0029</field>
+        <field name="Cost per Board">US$0.0058</field>
+        <field name="Five Board Cost">US$0.029</field>
+        <field name="LCSC">C17903</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="US$0.0029"/>
+      <property name="Cost per Board" value="US$0.0058"/>
+      <property name="Five Board Cost" value="US$0.029"/>
+      <property name="LCSC" value="C17903"/>
+      <property name="Sheetname" value="Interface IC Module"/>
+      <property name="Sheetfile" value="interface_ic_module_sch.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/"/>
+      <tstamps>45fbc896-9201-4edc-912c-fa396d3ded40</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0029</field>
+        <field name="Cost per Board">U$0.0174</field>
+        <field name="Five Board Cost">U$0.0087</field>
+        <field name="LCSC">C17902</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="U$0.0029"/>
+      <property name="Cost per Board" value="U$0.0174"/>
+      <property name="Five Board Cost" value="U$0.0087"/>
+      <property name="LCSC" value="C17902"/>
+      <property name="Sheetname" value="Interface IC Module"/>
+      <property name="Sheetfile" value="interface_ic_module_sch.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/"/>
+      <tstamps>aca8c0be-95ad-4275-80b6-781c444d96f0</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">US$0.0029</field>
+        <field name="Cost per Board">US$0.0058</field>
+        <field name="Five Board Cost">US$0.029</field>
+        <field name="LCSC">C17903</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="US$0.0029"/>
+      <property name="Cost per Board" value="US$0.0058"/>
+      <property name="Five Board Cost" value="US$0.029"/>
+      <property name="LCSC" value="C17903"/>
+      <property name="Sheetname" value="Interface IC Module"/>
+      <property name="Sheetfile" value="interface_ic_module_sch.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/"/>
+      <tstamps>a6ec042c-78fe-4491-9762-7ba0a0581b2a</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">US$0.0029</field>
+        <field name="Cost per Board">US$0.0058</field>
+        <field name="Five Board Cost">US$0.029</field>
+        <field name="LCSC">C17903</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="US$0.0029"/>
+      <property name="Cost per Board" value="US$0.0058"/>
+      <property name="Five Board Cost" value="US$0.029"/>
+      <property name="LCSC" value="C17903"/>
+      <property name="Sheetname" value="Interface IC Module"/>
+      <property name="Sheetfile" value="interface_ic_module_sch.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/"/>
+      <tstamps>6de7a3d6-52b2-4891-8db9-415e6a7b9f93</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0029</field>
+        <field name="Cost per Board">U$0.0174</field>
+        <field name="Five Board Cost">U$0.0087</field>
+        <field name="LCSC">C17902</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="U$0.0029"/>
+      <property name="Cost per Board" value="U$0.0174"/>
+      <property name="Five Board Cost" value="U$0.0087"/>
+      <property name="LCSC" value="C17902"/>
+      <property name="Sheetname" value="Interface IC Module"/>
+      <property name="Sheetfile" value="interface_ic_module_sch.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/"/>
+      <tstamps>80a8d7ec-0a1c-4e5c-8eed-229aa69f779f</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0029</field>
+        <field name="Cost per Board">U$0.0174</field>
+        <field name="Five Board Cost">U$0.0087</field>
+        <field name="LCSC">C17902</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="U$0.0029"/>
+      <property name="Cost per Board" value="U$0.0174"/>
+      <property name="Five Board Cost" value="U$0.0087"/>
+      <property name="LCSC" value="C17902"/>
+      <property name="Sheetname" value="Interface IC Module"/>
+      <property name="Sheetfile" value="interface_ic_module_sch.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/"/>
+      <tstamps>aa6d07ff-1525-403b-bca3-d20b0bb586ea</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0029</field>
+        <field name="Cost per Board">U$0.0174</field>
+        <field name="Five Board Cost">U$0.0087</field>
+        <field name="LCSC">C17902</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="U$0.0029"/>
+      <property name="Cost per Board" value="U$0.0174"/>
+      <property name="Five Board Cost" value="U$0.0087"/>
+      <property name="LCSC" value="C17902"/>
+      <property name="Sheetname" value="Interface IC Module"/>
+      <property name="Sheetfile" value="interface_ic_module_sch.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/"/>
+      <tstamps>149d58e3-6918-4bc3-8468-ada72bef3586</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Component Name">Resistor</field>
+        <field name="Cost Per unit">U$0.0029</field>
+        <field name="Cost per Board">U$0.0174</field>
+        <field name="Five Board Cost">U$0.0087</field>
+        <field name="LCSC">C17902</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Component Name" value="Resistor"/>
+      <property name="Cost Per unit" value="U$0.0029"/>
+      <property name="Cost per Board" value="U$0.0174"/>
+      <property name="Five Board Cost" value="U$0.0087"/>
+      <property name="LCSC" value="C17902"/>
+      <property name="Sheetname" value="Interface IC Module"/>
+      <property name="Sheetfile" value="interface_ic_module_sch.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/"/>
+      <tstamps>491685c4-9c43-47f2-a26f-0cb8afadebfa</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <fields>
+        <field name="Component Name">Push Button</field>
+        <field name="Cost Per unit">U$0.2669</field>
+        <field name="Cost per Board">U$0.2669</field>
+        <field name="Five Board Cost">U$1.3345</field>
+        <field name="LCSC">C273465</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Component Name" value="Push Button"/>
+      <property name="Cost Per unit" value="U$0.2669"/>
+      <property name="Cost per Board" value="U$0.2669"/>
+      <property name="Five Board Cost" value="U$1.3345"/>
+      <property name="LCSC" value="C273465"/>
+      <property name="Sheetname" value="Interface IC Module"/>
+      <property name="Sheetfile" value="interface_ic_module_sch.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/"/>
+      <tstamps>3bc187e0-c515-4a80-8b9a-62232d2fe4dd</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Component Name" value=""/>
+      <property name="Sheetname" value="Interface IC Module"/>
+      <property name="Sheetfile" value="interface_ic_module_sch.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/"/>
+      <tstamps>de97783d-4b61-4f8f-9a1d-81c79da7579f</tstamps>
+    </comp>
+    <comp ref="TP12">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Component Name" value=""/>
+      <property name="Sheetname" value="Interface IC Module"/>
+      <property name="Sheetfile" value="interface_ic_module_sch.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/"/>
+      <tstamps>225c015a-50b0-4b26-8dc7-4b1ffb08323c</tstamps>
+    </comp>
+    <comp ref="TP13">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Component Name" value=""/>
+      <property name="Sheetname" value="Interface IC Module"/>
+      <property name="Sheetfile" value="interface_ic_module_sch.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/"/>
+      <tstamps>53893e89-306a-4180-9460-2da0eac8f3ea</tstamps>
+    </comp>
+    <comp ref="TP14">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Component Name" value=""/>
+      <property name="Sheetname" value="Interface IC Module"/>
+      <property name="Sheetfile" value="interface_ic_module_sch.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/"/>
+      <tstamps>051e4f5d-54ec-452f-9125-aca242da943d</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>FT234XD-R</value>
+      <footprint>footprints:SON45P300X300X80-13N</footprint>
+      <fields>
+        <field name="Component Name">FTDI</field>
+        <field name="Cost Per unit">U$2.448</field>
+        <field name="Cost per Board">U$2.448</field>
+        <field name="Five Board Cost">US$12.24</field>
+        <field name="LCSC">C132158</field>
+        <field name="MANUFACTURER">FTDI</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.8mm</field>
+        <field name="PARTREV">Version 1.2</field>
+      </fields>
+      <libsource lib="EEEE3088 Library" part="FT234XD-R" description=""/>
+      <property name="PARTREV" value="Version 1.2"/>
+      <property name="MANUFACTURER" value="FTDI"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.8mm"/>
+      <property name="Component Name" value="FTDI"/>
+      <property name="Cost Per unit" value="U$2.448"/>
+      <property name="Cost per Board" value="U$2.448"/>
+      <property name="Five Board Cost" value="US$12.24"/>
+      <property name="LCSC" value="C132158"/>
+      <property name="Sheetname" value="Interface IC Module"/>
+      <property name="Sheetfile" value="interface_ic_module_sch.kicad_sch"/>
+      <sheetpath names="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/"/>
+      <tstamps>dd9fc0fa-39ea-4096-9b5a-5f76ae08f54d</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>AT24C256C-SSHL-T</value>
+      <footprint>newLibrary:SOIC127P600X175-8N</footprint>
+      <fields>
+        <field name="Component Name">EEPROM</field>
+        <field name="Cost Per unit">U$0.4639</field>
+        <field name="Cost per Board">U$0.4639</field>
+        <field name="Five Board Cost">U$2.3195</field>
+        <field name="LCSC">C6482</field>
+        <field name="MANUFACTURER">Atmel</field>
+      </fields>
+      <libsource lib="EEEE3088 Library" part="AT24C256C-SSHL-T" description=""/>
+      <property name="MANUFACTURER" value="Atmel"/>
+      <property name="Component Name" value="EEPROM"/>
+      <property name="Cost Per unit" value="U$0.4639"/>
+      <property name="Cost per Board" value="U$0.4639"/>
+      <property name="Five Board Cost" value="U$2.3195"/>
+      <property name="LCSC" value="C6482"/>
+      <property name="Sheetname" value="Interface IC Module"/>
+      <property name="Sheetfile" value="interface_ic_module_sch.kicad_sch"/>
+      <sheetpath names="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/"/>
+      <tstamps>f85b26da-00ac-40d4-8f80-b76a0d15f746</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>8Mhz</value>
+      <footprint>Crystal:Crystal_SMD_HC49-SD_HandSoldering</footprint>
+      <fields>
+        <field name="Component Name">Crystal Oscillator</field>
+        <field name="Cost Per unit">U$0.0884</field>
+        <field name="Cost per Board">U$0.0884</field>
+        <field name="Five Board Cost">U$0.442</field>
+        <field name="LCSC">C188205</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Component Name" value="Crystal Oscillator"/>
+      <property name="Cost Per unit" value="U$0.0884"/>
+      <property name="Cost per Board" value="U$0.0884"/>
+      <property name="Five Board Cost" value="U$0.442"/>
+      <property name="LCSC" value="C188205"/>
+      <property name="Sheetname" value="Interface IC Module"/>
+      <property name="Sheetfile" value="interface_ic_module_sch.kicad_sch"/>
+      <property name="ki_description" value="Two pin crystal"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/Interface IC Module/" tstamps="/ec34f1bb-6384-461d-9cc4-09aeddbbdae0/"/>
+      <tstamps>c889fa06-a72a-4ac9-8cfb-340e8396e3dd</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x05_Pin">
+      <description>Generic connector, single row, 01x05, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x10_Pin">
+      <description>Generic connector, single row, 01x10, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x24_Socket">
+      <description>Generic connector, single row, 01x24, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x24_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="MBR340">
+      <description>40V 3A Schottky Barrier Rectifier Diode, DO-201AD</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/MBR340-D.PDF</docs>
+      <footprints>
+        <fp>D*DO?201AD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MBR340</field>
+        <field name="Footprint">Diode_THT:D_DO-201AD_P15.24mm_Horizontal</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/MBR340-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EEEE3088 Library" part="AT24C256C-SSHL-T">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AT24C256C-SSHL-T</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="MANUFACTURER">Atmel</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="bidirectional"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="EEEE3088 Library" part="CSD13381F4">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">CSD13381F4</field>
+        <field name="Footprint">DFN100X60X35-3N</field>
+        <field name="MANUFACTURER">Texas Instruments</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EEEE3088 Library" part="DW01A">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">DW01A</field>
+        <field name="Footprint">SOT23-6</field>
+        <field name="LCSC">C351410</field>
+        <field name="VALUE">DW01A</field>
+        <field name="MPN">DW01A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OD" type="bidirectional"/>
+        <pin num="2" name="CS" type="bidirectional"/>
+        <pin num="3" name="OC" type="bidirectional"/>
+        <pin num="4" name="TD" type="bidirectional"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="EEEE3088 Library" part="FS8205A">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">FS8205A</field>
+        <field name="Footprint">SOP65P640X120-8N</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="PARTREV">1.7</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.2mm</field>
+        <field name="MANUFACTURER">Fortune Semiconductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EEEE3088 Library" part="FT234XD-R">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FT234XD-R</field>
+        <field name="Footprint">SON45P300X300X80-13N</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="PARTREV">Version 1.2</field>
+        <field name="MANUFACTURER">FTDI</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="USBDM" type="bidirectional"/>
+        <pin num="2" name="~{RESET#}" type="input"/>
+        <pin num="3" name="3V3OUT" type="output"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="CBUS0" type="bidirectional"/>
+        <pin num="7" name="TXD" type="output"/>
+        <pin num="8" name="RTS#" type="output"/>
+        <pin num="9" name="VCCIO" type="power_in"/>
+        <pin num="10" name="RXD" type="input"/>
+        <pin num="11" name="CTS#" type="input"/>
+        <pin num="12" name="USBDP" type="bidirectional"/>
+        <pin num="13" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="EEEE3088 Library" part="HT7533-1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HT7533-1</field>
+        <field name="Footprint">SOT89</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="VI" type="input"/>
+        <pin num="2@1" name="VI" type="input"/>
+        <pin num="3" name="VO" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EEEE3088 Library" part="TP4056">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TP4056</field>
+        <field name="Footprint">SOP127P600X175-9N</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="MANUFACTURER">NanJing Top Power ASIC Corp.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.75mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEMP" type="input"/>
+        <pin num="2" name="PROG" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="BAT" type="output"/>
+        <pin num="6" name="~{STDBY}" type="output"/>
+        <pin num="7" name="~{CHRG}" type="output"/>
+        <pin num="8" name="CE" type="input"/>
+        <pin num="9" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EEEE3088 Library" part="TPS61022RWUR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS61022RWUR</field>
+        <field name="Footprint">CONV_TPS61022RWUR</field>
+        <field name="PARTREV">4223724/C 02/2018</field>
+        <field name="MANUFACTURER">Texas Instruments</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.00mm</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="SW" type="output"/>
+        <pin num="3" name="VOUT" type="output"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="MODE" type="input"/>
+        <pin num="7" name="VIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Pressure" part="LPS22HB">
+      <description>MEMS nano pressure sensor, 260-1260 hPa, absolute digital output baromeeter, 24 bit, SPI, I2C, 0.0075 hPa noise rms, ST_HLGA-10L</description>
+      <docs>https://www.st.com/resource/en/datasheet/lps22hb.pdf</docs>
+      <footprints>
+        <fp>ST?HLGA*2.5x2.5mm*P0.6mm*LayoutBorder3x2y*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LPS22HB</field>
+        <field name="Footprint">Package_LGA:ST_HLGA-10_2.5x2.5mm_P0.6mm_LayoutBorder3x2y</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/lps22hb.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vdd_IO" type="power_in"/>
+        <pin num="2" name="SCL" type="input"/>
+        <pin num="3" name="RES" type="passive"/>
+        <pin num="4" name="SDA" type="bidirectional"/>
+        <pin num="5" name="SA0" type="input"/>
+        <pin num="6" name="~{CS}" type="input"/>
+        <pin num="7" name="INT_DRDY" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="schematicDraft-rescue" part="LMT87DCK-Sensor_Temperature">
+      <footprints>
+        <fp>SC-70-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Sensor_Temperature_LMT87DCK</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-353_SC-70-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vdd" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="Vdd" type="power_in"/>
+        <pin num="5" name="Vdd" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Pressure">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Sensor_Pressure.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="!CS">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="Vdd_IO" pintype="power_in"/>
+      <node ref="U2" pin="10" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+3.3V">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J2" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U8" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="8" pinfunction="CE" pintype="input"/>
+      <node ref="U7" pin="3" pinfunction="VOUT" pintype="output"/>
+    </net>
+    <net code="4" name="/Interface IC Module/I2C3_SCL">
+      <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/Interface IC Module/NRST">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/Interface IC Module/OSC_IN">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/V battery+">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="J5" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="VI" pintype="input"/>
+      <node ref="U3" pin="2@1" pinfunction="VI" pintype="input"/>
+      <node ref="U5" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U5" pin="6" pinfunction="CBUS0" pintype="bidirectional"/>
+      <node ref="U5" pin="9" pinfunction="VCCIO" pintype="power_in"/>
+      <node ref="U7" pin="7" pinfunction="VIN" pintype="input"/>
+    </net>
+    <net code="8" name="/V battery-">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="Q1" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="3" pintype="passive"/>
+      <node ref="Q1" pin="6" pintype="passive"/>
+      <node ref="Q1" pin="7" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Analog_Data_Read">
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="10" name="D+">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="11" name="D-">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="TP14" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J2" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="ID" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J5" pin="6" pinfunction="Shield" pintype="passive"/>
+      <node ref="Q2" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="RES" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="SA0" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="TEMP" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="13" name="I2C_SCL">
+      <node ref="J2" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="14" name="I2C_SDA">
+      <node ref="J2" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(#FLG02-pwr)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="Vdd" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="Vdd" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="Vdd" pintype="power_in"/>
+    </net>
+    <net code="16" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="Q2" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D4-K)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(IC1-CS)">
+      <node ref="IC1" pin="2" pinfunction="CS" pintype="bidirectional"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(IC1-OC)">
+      <node ref="IC1" pin="3" pinfunction="OC" pintype="bidirectional"/>
+      <node ref="Q1" pin="5" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(IC1-OD)">
+      <node ref="IC1" pin="1" pinfunction="OD" pintype="bidirectional"/>
+      <node ref="Q1" pin="4" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(J2-Pin_20)">
+      <node ref="J2" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(R31-Pad1)">
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(U1-OUT)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="28" name="Net-(U2-INT_DRDY)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="INT_DRDY" pintype="output"/>
+    </net>
+    <net code="29" name="Net-(U2-SCL)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(U2-SDA)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="Net-(U2-~{CS})">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(U3-VO)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="VO" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(U4-BAT)">
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="BAT" pintype="output"/>
+    </net>
+    <net code="34" name="Net-(U4-PROG)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="PROG" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="Net-(U4-~{CHRG})">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="~{CHRG}" pintype="output"/>
+    </net>
+    <net code="36" name="Net-(U4-~{STDBY})">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="~{STDBY}" pintype="output"/>
+    </net>
+    <net code="37" name="Net-(U5-USBDM)">
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="USBDM" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="Net-(U5-USBDP)">
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U5" pin="12" pinfunction="USBDP" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="Net-(U7-EN)">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="40" name="Net-(U7-FB)">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="41" name="Net-(U7-SW)">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="SW" pintype="output"/>
+    </net>
+    <net code="42" name="Net-(U8-A0)">
+      <node ref="U8" pin="1" pinfunction="A0" pintype="input"/>
+      <node ref="U8" pin="2" pinfunction="A1" pintype="input"/>
+      <node ref="U8" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="U8" pin="7" pinfunction="WP" pintype="input"/>
+    </net>
+    <net code="43" name="Net-(U8-SCL)">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U8" pin="6" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="44" name="Net-(U8-SDA)">
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U8" pin="5" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="Plug_Detect">
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="46" name="RXD">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U5" pin="10" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="47" name="SCK">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="48" name="TXD">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="TXD" pintype="output"/>
+    </net>
+    <net code="49" name="unconnected-(IC1-TD-Pad4)">
+      <node ref="IC1" pin="4" pinfunction="TD" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(J1-Pin_2-Pad2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(J1-Pin_3-Pad3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(J1-Pin_4-Pad4)">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(J1-Pin_10-Pad10)">
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(J1-Pin_12-Pad12)">
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(J1-Pin_13-Pad13)">
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(J1-Pin_14-Pad14)">
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(J1-Pin_15-Pad15)">
+      <node ref="J1" pin="15" pinfunction="Pin_15" pintype="passive+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(J1-Pin_16-Pad16)">
+      <node ref="J1" pin="16" pinfunction="Pin_16" pintype="passive+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(J1-Pin_17-Pad17)">
+      <node ref="J1" pin="17" pinfunction="Pin_17" pintype="passive+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(J1-Pin_18-Pad18)">
+      <node ref="J1" pin="18" pinfunction="Pin_18" pintype="passive+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(J1-Pin_19-Pad19)">
+      <node ref="J1" pin="19" pinfunction="Pin_19" pintype="passive+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(J1-Pin_20-Pad20)">
+      <node ref="J1" pin="20" pinfunction="Pin_20" pintype="passive+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(J1-Pin_21-Pad21)">
+      <node ref="J1" pin="21" pinfunction="Pin_21" pintype="passive+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(J1-Pin_22-Pad22)">
+      <node ref="J1" pin="22" pinfunction="Pin_22" pintype="passive+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(J2-Pin_1-Pad1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(J2-Pin_2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(J2-Pin_3-Pad3)">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(J2-Pin_4-Pad4)">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(J2-Pin_5-Pad5)">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(J2-Pin_8-Pad8)">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(J2-Pin_9-Pad9)">
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(J2-Pin_10-Pad10)">
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(J2-Pin_13-Pad13)">
+      <node ref="J2" pin="13" pinfunction="Pin_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(J2-Pin_14-Pad14)">
+      <node ref="J2" pin="14" pinfunction="Pin_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(J2-Pin_15-Pad15)">
+      <node ref="J2" pin="15" pinfunction="Pin_15" pintype="passive+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(J2-Pin_16-Pad16)">
+      <node ref="J2" pin="16" pinfunction="Pin_16" pintype="passive+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(J2-Pin_17-Pad17)">
+      <node ref="J2" pin="17" pinfunction="Pin_17" pintype="passive+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(J2-Pin_21-Pad21)">
+      <node ref="J2" pin="21" pinfunction="Pin_21" pintype="passive+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(J2-Pin_22-Pad22)">
+      <node ref="J2" pin="22" pinfunction="Pin_22" pintype="passive+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pintype="passive+no_connect"/>
+      <node ref="Q1" pin="8" pintype="passive+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U4-EP-Pad9)">
+      <node ref="U4" pin="9" pinfunction="EP" pintype="passive+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U5-3V3OUT-Pad3)">
+      <node ref="U5" pin="3" pinfunction="3V3OUT" pintype="output+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U5-CTS#-Pad11)">
+      <node ref="U5" pin="11" pinfunction="CTS#" pintype="input+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U5-RTS#-Pad8)">
+      <node ref="U5" pin="8" pinfunction="RTS#" pintype="output+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U5-~{RESET#}-Pad2)">
+      <node ref="U5" pin="2" pinfunction="~{RESET#}" pintype="input+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U7-MODE-Pad6)">
+      <node ref="U7" pin="6" pinfunction="MODE" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
